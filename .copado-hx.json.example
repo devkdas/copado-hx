@@ -1,0 +1,16 @@
+{
+  "cicd_instance": "your-instance.lightning.force.com",
+  "ai_base_url": "https://copadogpt-api.robotic.copado.com",
+  "ai_api_key": "your-ai-api-key",
+  "ai_org_id": "49128",
+  "ai_workspace_id": "your-workspace-id",
+  "crt_base_url": "https://eu-robotic.copado.com",
+  "crt_pak": "your-crt-pak",
+  "crt_org_id": "43844",
+  "crt_project_id": "76303",
+  "crt_job_id": "120561",
+  "actions_api_key": "your-actions-api-key",
+  "actions_base_url": "https://app-api.copado.com",
+  "default_env": "UAT",
+  "output_format": "human"
+}
