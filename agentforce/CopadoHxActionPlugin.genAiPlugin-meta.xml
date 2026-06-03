@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <pluginType>Invocable</pluginType>
+    <functions>
+        <function>
+            <name>copado_commit</name>
+            <label>Commit Metadata</label>
+            <description>Commits metadata changes from a user story via Copado Actions API</description>
+            <actionType>apex</actionType>
+            <apexClass>CopadoHxActions</apexClass>
+            <apexMethod>commit</apexMethod>
+        </function>
+        <function>
+            <name>copado_promote</name>
+            <label>Promote User Story</label>
+            <description>Promotes a user story to the next environment via Copado Actions API</description>
+            <actionType>apex</actionType>
+            <apexClass>CopadoHxActions</apexClass>
+            <apexMethod>promote</apexMethod>
+        </function>
+        <function>
+            <name>copado_deploy</name>
+            <label>Deploy to Production</label>
+            <description>Deploys a user story to production via Copado Actions API</description>
+            <actionType>apex</actionType>
+            <apexClass>CopadoHxActions</apexClass>
+            <apexMethod>deploy</apexMethod>
+        </function>
+        <function>
+            <name>copado_get_stories</name>
+            <label>Get User Stories</label>
+            <description>Retrieves user stories from the Copado pipeline</description>
+            <actionType>apex</actionType>
+            <apexClass>CopadoHxActions</apexClass>
+            <apexMethod>getStories</apexMethod>
+        </function>
+        <function>
+            <name>copado_get_job_status</name>
+            <label>Get Job Status</label>
+            <description>Checks the execution status of a Copado job</description>
+            <actionType>apex</actionType>
+            <apexClass>CopadoHxActions</apexClass>
+            <apexMethod>getJobStatus</apexMethod>
+        </function>
+    </functions>
+</GenAiPlugin>
