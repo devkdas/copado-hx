@@ -21,6 +21,8 @@ test-auth.sh
 *.cred
 demo/SUBMISSION_CHECKLIST.md
 demo/VIDEO_SCRIPT.md
+demo/PITCH_SCRIPT.md
+demo/QA_CHEATSHEET.md
 demo/record.sh
 demo/record-demo.sh
 demo/record-live.sh
